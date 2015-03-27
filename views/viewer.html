@@ -177,7 +177,12 @@
 					</div>
 				</div>
 			    <div>
-	                <h2 id="speech-rate-legend" class="setting-header">SPEECH RATE</h2>
+	                <h2 id="speech-rate-legend" class="setting-header">
+	                	SPEECH RATE
+	                	<span class="note">
+	                		<a href="https://www.bookshare.org/cms/help-center/web-reader-voices" id="help-web-reader-voices" target="_blank">Learn more</a> about voice options
+	                	</span>
+                	</h2>
 	                <div>
 	                    <span id="speech-rate-min" class="checkbox">Slower</span>
 	                    <input type="range" id="speech-rate-input" min="0.5" max="2.5" step="0.1" value="1" title="Speech rate" aria-labelledby="speech-rate-legend speech-rate-min speech-rate-max"/>
@@ -201,6 +206,13 @@
 		<div class="modal fade" id="viewer-help-modal"  style="display: none"><!-- le help modal -->
 				<div class="offscreenText"> Help Start </div>
 				<div id="viewer-help-body">
+				<h1 tabindex="-1" id="help-heading">Note for Chromebook Users:</h1>
+				<p>
+					Text-to-Speech (TTS) and word highlighting require compatible voices on Chromebook.
+					You can install a compatible voice from the 
+					<a href="https://chrome.google.com/webstore/detail/chrome-os-us-english-fema/efdojdlmjknacnljjdedapanceanigkh" target="_blank">Chrome Web Store</a>.
+					Visit our <a href="https://www.bookshare.org/cms/help-center/web-reader-voices" target="_blank">Help Center</a> to learn more.
+				</p>
 				<h1 tabindex="-1" id="help-heading">Overview:</h1>
 				<p>
 					Bookshare Web Reader lets you read books directly from your Internet browser.  
@@ -243,7 +255,7 @@
 					using Google Chrome:
 				</p>
 				<ul>
-					<li>Chromebook: For best results install the <a href="https://chrome.google.com/webstore/detail/us-english-female-text-to/efdojdlmjknacnljjdedapanceanigkh" target="_blank">Chrome OS US English Female HQ</a> voice from the Chrome Web Store</li>
+					<li>Chromebook: For best results install the <a href="https://chrome.google.com/webstore/detail/chrome-os-us-english-fema/efdojdlmjknacnljjdedapanceanigkh" target="_blank">Chrome OS US English Female HQ</a> voice from the Chrome Web Store</li>
 					<li>Windows XP: Microsoft Mike or Mary</li>
 					<li>Windows Vista or 7: Microsoft Anna</li>
 					<!--

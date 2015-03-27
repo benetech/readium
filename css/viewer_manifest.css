@@ -2290,6 +2290,13 @@ body {
     .night-theme #readium-content-container.mo-playing .current-mo-content {
       color: white; }
 
+#viewer-settings-modal .setting-header span.note {
+     font-size: 12px;
+     font-weight: normal;
+     display: block;
+     float: right; 
+}
+
 /* Necessary for screen reader users. Must not include display:none or visibility:hidden */
 .offscreenText {
   position: absolute;
