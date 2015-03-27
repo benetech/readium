@@ -105,6 +105,7 @@ window.BookshareUtils = {
 			if (match != null) {
 				if (match[1] == 'qa') { BookshareUtils.environment = 'QA'; }
 				else if (match[1] == 'staging') { BookshareUtils.environment = 'STAGING'; }
+				else if (match[1] == 'dev') { BookshareUtils.environment = 'DEV'; BookshareUtils.http = 'http://'; }
 			}
 		}
 	},

@@ -14,6 +14,7 @@
       "https://www.bookshare.org/",
       "https://public.qa.bookshare.org/",
       "https://public.staging.bookshare.org/",
+      "http://public.dev.bookshare.org:8080/",
       "https://bookshare-download-cache.s3.amazonaws.com/",
       "https://qa-bookshare-download-cache.s3.amazonaws.com/",
       "https://staging-bookshare-download-cache.s3.amazonaws.com/"
