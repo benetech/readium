@@ -5,3 +5,5 @@ build/custom_config.rb
 readium/
 .jhw-cache/
 .project
+readium.crx
+readium.pem
