@@ -1,8 +1,0 @@
-/* A css clearfix for holding floated elements in a container */
-.clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}

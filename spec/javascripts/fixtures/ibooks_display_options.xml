@@ -1,8 +1,0 @@
-<display_options>
-     <platform name="*">
-          <option name="fixed-layout">true</option>
-          <option name="open-to-spread">true</option>
-          <option name="orientation-lock">landscape-only"</option>
-          <option name="interactive">true</option>
-     </platform>
-</display_options>

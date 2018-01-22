@@ -1,3 +1,1 @@
-Readium.Utils.isIOS = function() {
-	return  !!navigator.userAgent.match(/iPad|iPhone|iPod/);
-};
+Readium.Utils.isIOS=function(){return!!navigator.userAgent.match(/iPad|iPhone|iPod/)};
