@@ -13,7 +13,7 @@ gem 'sass'
 gem 'bourbon'
 
 # for running tests
-gem 'jasmine'
+gem 'jasmine', '>= 1.2.0'
 
 # for running the tests like a hipster
 gem 'jasmine-headless-webkit'
