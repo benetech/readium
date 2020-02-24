@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 # for running anything
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 
 # for running the server
 gem "eventmachine", "1.0.0.rc.4"
